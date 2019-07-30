@@ -2,6 +2,7 @@ package bounen057.miningplus.Commands;
 
 import bounen057.miningplus.GUI.OpenGUI;
 import bounen057.miningplus.MiningPlus;
+import bounen057.miningplus.utils.PayPoint;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -29,6 +30,10 @@ public class GetCommands implements CommandExecutor{
         if(args[0].equals("help")) {
             new SendHelp(plugin).send(p);
             return true;
+        }
+
+        if(args[0].equals("pay")){
+            new PayPoint(plugin).pay(args[2],args[1],p);
         }
 
 

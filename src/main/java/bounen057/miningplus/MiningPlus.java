@@ -10,6 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public final class MiningPlus extends JavaPlugin {
 
+    public String logo = "§6§l[§7§lMining+§6§l]";
     public CustomConfig config,player;
 
     @Override

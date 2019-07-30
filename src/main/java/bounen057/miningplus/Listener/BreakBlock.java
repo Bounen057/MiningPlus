@@ -23,5 +23,8 @@ public class BreakBlock implements Listener {
 
         pd.settotal(p,pd.gettotal(p) + 1.0);
         pd.setpoint(p,pd.getpoint(p) + 1.0);
+
+        plugin.player.getConfig().set("uuid."+p.getUniqueId().toString(),p.getName());
+        plugin.player.saveConfig();
     }
 }

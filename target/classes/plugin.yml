@@ -1,5 +1,5 @@
 name: MiningPlus
-version: ${project.version}
+version: 1.0-SNAPSHOT
 main: bounen057.miningplus.MiningPlus
 
 commands:

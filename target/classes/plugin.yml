@@ -1,6 +1,0 @@
-name: MiningPlus
-version: 1.0-SNAPSHOT
-main: bounen057.miningplus.MiningPlus
-
-commands:
-  mine:

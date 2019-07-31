@@ -16,7 +16,7 @@ public class BreakBlock implements Listener {
     }
 
     // 採掘した時にポイントを追加
-    @EventHandler(priority = EventPriority.LOW)
+    @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
     public void OnBreak(BlockBreakEvent e){
         PlayerData pd = new PlayerData(plugin);
         Player p = e.getPlayer();

@@ -1,12 +1,12 @@
 package bounen057.miningplus;
 
-import bounen057.miningplus.Commands.GetCommands;
-import bounen057.miningplus.Data.CustomConfig;
-import bounen057.miningplus.Data.PlayerData;
-import bounen057.miningplus.Listener.BreakBlock;
-import bounen057.miningplus.Listener.ClickInventory;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
+
+import bounen057.miningplus.Commands.GetCommands;
+import bounen057.miningplus.Data.CustomConfig;
+import bounen057.miningplus.Listener.BreakBlock;
+import bounen057.miningplus.Listener.ClickInventory;
 
 public final class MiningPlus extends JavaPlugin {
 
